@@ -1,5 +1,5 @@
 ## Papers and Comments
 
-- [MachineLearning](#ml):
-- [KnowledgeDiscovery](#kd):
+- [TopicModeling](#tm):
+- [DeepLearning](#dl):
 
