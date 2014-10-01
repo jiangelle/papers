@@ -8,6 +8,7 @@
     - Draw a topic z<sub>di</sub> from multinomial &theta;<sub>d</sub>;
     - Draw a word w<sub>di</sub> from multinomial &phi;<sub>z<sub>di</sub></sub>;
     - Draw a timestamp t<sub>di</sub> from Beta &psi;<sub>z<sub>di</sub></sub>;
+  - They evaluate their model on 3 dataset: NIPS papers; Emails of authors; State-of-the-Union Addresses.
 
 
 
