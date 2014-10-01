@@ -6,8 +6,8 @@
   - Draw T multinomials &phi;<sub>z</sub> from a Dirichlet prior &beta;, one for each topic z;
   - For each document d, draw a multinomial &theta;<sub>d</sub> from a Dirichlet prior &alpha;, then for each word w<sub>di</sub> in document d:
     - Draw a topic z<sub>di</sub> from multinomial &theta;<sub>d</sub>;
-    - Draw a word w<sub>di</sub> from multinomial &phi;<sub>z<sub>di></sub></sub>;
-    - Draw a timestamp t<sub>di</sub> from Beta &psi;<sub>z<sub>di></sub></sub>;
+    - Draw a word w<sub>di</sub> from multinomial &phi;<sub>z<sub>di</sub></sub>;
+    - Draw a timestamp t<sub>di</sub> from Beta &psi;<sub>z<sub>di</sub></sub>;
 
 
 
