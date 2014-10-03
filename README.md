@@ -1,5 +1,5 @@
 ## Papers and Comments
 
-- [TopicModeling](#tm):
-- [DeepLearning](#dl):
+- [TopicModeling](#TopicModeling):
+- [DeepLearning](#DeepLearning):
 
