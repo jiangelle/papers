@@ -13,7 +13,7 @@
   - They use Gibbs Sampling to perform approximate inference and evaluate their model on 3 dataset: NIPS papers(17 years: 1987-2003), A Researcher's Emails(9 months), State-of-the-Union Addresses(21 decades) and compare TOT to LDA. Also, they use topic distributions of documents to predict timestamps. Number of topics T is fixed to be 50. &alpha;=50/T, &beta; = 0.1.
 
 - [Modeling Flu on Twitter using Temporal Topic Models]()
-  - [![Example](hfstm.png)](https://raw.github.com/yning/papers/TopicModeling/master/hfstm.png)
+  <div align="center"><img src="hfstm.png"/></div>
   - Summary: This paper proposes temporal topic models to capture hidden states of a user from his tweets and aggregate states in a geographical region for better estimation of flu trends. They define states of flue and combines the states as a hidden random variable into the temporal topic graphical models. 
 
 - [Characterizing Microblogs with Topic Models](twitter-icwsm10.pdf)
