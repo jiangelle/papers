@@ -16,9 +16,9 @@
   - Summary: This paper proposes temporal topic models to capture hidden states of a user from his tweets and aggregate states in a geographical region for better estimation of flu trends. They define states of flue and combines the states as a hidden random variable into the temporal topic graphical models. 
 
 - [Characterizing Microblogs with Topic Models](twitter-icwsm10.pdf)
-  - Summary: This paper introduces a way to characterizing tweets using topic modeling.
+  - Summary: This paper introduces a way to characterize tweets using topic modeling.
   - For each topic k in 1..K, draw a multinomial distribution &beta;<sub>k</sub> from symmetric Dirichlet prior &eta;.
   - For each tweet d in 1..D:
     - 1. Build a label set &Lambda; describing the tweet from the deterministic prior &Phi;
     - 2. Select a multinomial distribution &theta;<sub>d</sub> over the labels &Lambda;<sub>d</sub> from symmetric Dirichlet prior &alpha;.
-    - 3. For each word position i 1..N in tweet d. First draw a label z<sub>d</sub>from label multinomial &theta;<sub>d</sub>. Then draw a word w<sub>d</sub>from word multinomial &beta;<sub>z</sub>.
+    - 3. For each word position i 1..N in tweet d. First draw a label z<sub>d</sub> from label multinomial &theta;<sub>d</sub>. Then draw a word w<sub>d</sub>from word multinomial &beta;<sub>z</sub>.
