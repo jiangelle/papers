@@ -14,3 +14,5 @@
 - [Modeling Flu on Twitter using Temporal Topic Models]()
   - [![Example](hfstm.png)](https://raw.github.com/yning/papers/TopicModeling/master/hfstm.png)
   - Summary: This paper proposes temporal topic models to capture hidden states of a user from his tweets and aggregate states in a geographical region for better estimation of flu trends. They define states of flue and combines the states as a hidden random variable into the temporal topic graphical models. 
+
+- [Characterizing Microblogs with Topic Models]()
