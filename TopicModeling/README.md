@@ -1,8 +1,19 @@
+#container {
+    height:100px;
+    line-height:100px;
+}
+
+#container img {
+    vertical-align:middle;
+    max-height:100%;
+}
 ## Topic Modeling:
 
 
 - [Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends](tot-kdd06.pdf) <br/>
-->![![Example](totkdd06.jpg)](https://raw.github.com/yning/papers/TopicModeling/master/totkdd05.jpg)<-
+<div id="container">
+    <img src="https://raw.github.com/yning/papers/TopicModeling/master/totkdd05.jpg">
+</div>
   - Summary: A variant of LDA model trying to capture the topical trends. The mixture distribution over topics is influenced by both word co-occurrences and the document’s timestamp. Timestamp for each word is the same with that document. 
   
   - Draw T multinomials &phi;<sub>z</sub> from a Dirichlet prior &beta;, one for each topic z;
