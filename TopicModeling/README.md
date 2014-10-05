@@ -41,7 +41,7 @@
 ### [Probabilistic Topic Models](http://www.cs.princeton.edu/~blei/papers/Blei2012.pdf)(Communications of the ACM2012)
 - Authors: David M. Blei.
 - Summary: This paper surveyes probabilistic topic models to provide a statistical solution to manage large archives of documents. It investigated the Latent Dirichlet Allocation model(LDA), the extended versions and future directions for LDA.
-- 
+
 ### [Modeling Flu on Twitter using Temporal Topic Models]()(ICDM14)
   <div align="center"><img src="hfstm.png"/></div>
 - Summary: This paper proposes temporal topic models to capture hidden states of a user from his tweets and aggregate states in a geographical region for better estimation of flu trends. They define states of flue and combines the states as a hidden random variable into the temporal topic graphical models. 
