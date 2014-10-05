@@ -39,9 +39,9 @@
 ### [Characterizing Microblogs with Topic Models](twitter-icwsm10.pdf) (ICWSM10)
 | Graphical Model of Labeled Twitter |
 |:---:|
-| <a href="twitter-icwsm10.png"><img width=460 src="twitter-icwsm10.png" alt=""></a> |
+| <a href="twitter-icwsm10.png"><img width=466 src="twitter-icwsm10.png" alt=""></a> |
 
-<div align="center"><img src="twitter-icwsm10.png"/></div>
+<!--<div align="center"><img src="twitter-icwsm10.png"/></div>-->
 - Authors: Daniel Ramage, Susan Dumais, Dan Liebling.
 - Summary: This paper introduces a way to characterize tweets using topic modeling.
 - Generative Process:
@@ -56,6 +56,10 @@
 - Summary: This paper surveyes probabilistic topic models to provide a statistical solution to manage large archives of documents. It investigated the Latent Dirichlet Allocation model(LDA), the extended versions and future directions for LDA.
 
 ### [Modeling Flu on Twitter using Temporal Topic Models]()(ICDM14)
+| Graphical Model of TTM with Flu States |
+|:---:|
+| <a href="hfstm.png"><img width=280 src="hfstm.png" alt=""></a> |
+
   <div align="center"><img src="hfstm.png"/></div>
 - Summary: This paper proposes temporal topic models to capture hidden states of a user from his tweets and aggregate states in a geographical region for better estimation of flu trends. They define states of flue and combines the states as a hidden random variable into the temporal topic graphical models. 
 
