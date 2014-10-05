@@ -2,6 +2,7 @@
 
 ### [Topic Modeling Bibliography](http://mimno.infosci.cornell.edu/topics.html)
 - Dr. Mimno organizes resources on Topic Modeling and lables each paper based on its category. It is awesome! Thanks to him!
+
 ### [Latent Dirichlet Allocation](http://www.cs.princeton.edu/~blei/papers/BleiNgJordan2003.pdf)(Journal of Machine Learning Research2003)
 - Authors: David M. Blei, Andrew Y. Ng, Michael I. Jordan.
 - Summary: This paper presents efficient approximate inference techniques based on variational methods and an EM algorithm for empirical Bayes parameter estimation.
