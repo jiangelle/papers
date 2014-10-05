@@ -33,6 +33,7 @@
 
 
 ### [Characterizing Microblogs with Topic Models](twitter-icwsm10.pdf) (ICWSM10)
+<div align="center"><img src="twitter-icwsm10.png"/></div>
 - Authors: Daniel Ramage, Susan Dumais, Dan Liebling.
 - Summary: This paper introduces a way to characterize tweets using topic modeling.
 - Generative Process:
