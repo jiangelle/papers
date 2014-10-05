@@ -4,14 +4,14 @@
 - Dr. Mimno organizes resources on Topic Modeling and lables each paper based on its category. It is awesome! Thanks to him!
 
 ### [Probabilistic Topic Models](http://www.cs.princeton.edu/~blei/papers/Blei2012.pdf)
-- Authors: David M. Blei
+- Authors: David M. Blei.
 
 ### [Probabilistic Topic Models](http://psiexp.ss.uci.edu/research/papers/SteyversGriffithsLSABookFormatted.pdf)(Handbook of latent semantic analysis2007) 
-- Authors: Mark Steyvers, Tom Griffiths 
+- Authors: Mark Steyvers, Tom Griffiths. 
 
 ### [Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends](tot-kdd06.pdf) (ACM SIGKDD06) <br/>
 <div align="center"><img src="totkdd06.jpg" align="middle"/></div>
-- Authors: Xuerui Wang, Andrew McCallum
+- Authors: Xuerui Wang, Andrew McCallum.
 - Summary: A variant of LDA model trying to capture the topical trends. The mixture distribution over topics is influenced by both word co-occurrences and the document’s timestamp. Timestamp for each word is the same with that document. 
 - Generative Process: 
   - Draw T multinomials &phi;<sub>z</sub> from a Dirichlet prior &beta;, one for each topic z;
@@ -23,8 +23,10 @@
 - They use Gibbs Sampling to perform approximate inference and evaluate their model on 3 dataset: NIPS papers(17 years: 1987-2003), A Researcher's Emails(9 months), State-of-the-Union Addresses(21 decades) and compare TOT to LDA. Also, they use topic distributions of documents to predict timestamps. Number of topics T is fixed to be 50. &alpha;=50/T, &beta; = 0.1.
 
 ### [Dynamic Topic Models](dtm_icml06.pdf)(ICML06)
+- Authors: David M. Blei, John D. Lafferty.
 
 ### [Characterizing Microblogs with Topic Models](twitter-icwsm10.pdf) (ICWSM10)
+- Authors: Daniel Ramage, Susan Dumais, Dan Liebling.
 - Summary: This paper introduces a way to characterize tweets using topic modeling.
 - Generative Process:
   - For each topic k in 1..K, draw a multinomial distribution &beta;<sub>k</sub> from symmetric Dirichlet prior &eta;.
