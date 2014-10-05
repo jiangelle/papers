@@ -39,7 +39,7 @@
 ### [Characterizing Microblogs with Topic Models](twitter-icwsm10.pdf) (ICWSM10)
 | Graphical Model of Labeled Twitter |
 |:---:|
-| <a href="twitter-icwsm10.png"><img width=290 src="twitter-icwsm10.png" alt=""></a> |
+| <a href="twitter-icwsm10.png"><img width=460 src="twitter-icwsm10.png" alt=""></a> |
 
 <div align="center"><img src="twitter-icwsm10.png"/></div>
 - Authors: Daniel Ramage, Susan Dumais, Dan Liebling.
