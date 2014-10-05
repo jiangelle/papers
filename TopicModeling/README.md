@@ -28,7 +28,7 @@
     - 3. For each word position i 1..N in tweet d. First draw a label z<sub>d</sub> from label multinomial &theta;<sub>d</sub>. Then draw a word w<sub>d</sub>from word multinomial &beta;<sub>z</sub>.
 
 
-### [Modeling Flu on Twitter using Temporal Topic Models](ICML14)
+### [Modeling Flu on Twitter using Temporal Topic Models]()(ICDM14)
   <div align="center"><img src="hfstm.png"/></div>
 - Summary: This paper proposes temporal topic models to capture hidden states of a user from his tweets and aggregate states in a geographical region for better estimation of flu trends. They define states of flue and combines the states as a hidden random variable into the temporal topic graphical models. 
 
