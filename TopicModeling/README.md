@@ -12,11 +12,10 @@
 - Summary: Using Gibbs Sampling to discover topics in articles.
 
 ### [Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends](tot-kdd06.pdf) (ACM SIGKDD06) <br/>
-<div align="center">
 | Graphical Model of TOT |
 |:---:|
 | <a href="totkdd06.jpg"><img width=280 src="totkdd06.jpg" alt="harvard uni logo"></a> |
-</div>
+
 <div align="center"><img src="totkdd06.jpg" align="middle"/></div>
 - Authors: Xuerui Wang, Andrew McCallum.
 - Summary: A variant of LDA model trying to capture the topical trends. The mixture distribution over topics is influenced by both word co-occurrences and the document’s timestamp. Timestamp for each word is the same with that document. 
