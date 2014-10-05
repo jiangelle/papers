@@ -14,9 +14,9 @@
 ### [Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends](tot-kdd06.pdf) (ACM SIGKDD06) <br/>
 | Graphical Model of TOT |
 |:---:|
-| <a href="totkdd06.jpg"><img width=290 src="totkdd06.jpg" alt="harvard uni logo"></a> |
+| <a href="totkdd06.jpg"><img width=290 src="totkdd06.jpg" alt=""></a> |
 
-<div align="center"><img src="totkdd06.jpg" align="middle"/></div>
+<!--<div align="center"><img src="totkdd06.jpg" align="middle"/></div>-->
 - Authors: Xuerui Wang, Andrew McCallum.
 - Summary: A variant of LDA model trying to capture the topical trends. The mixture distribution over topics is influenced by both word co-occurrences and the document’s timestamp. Timestamp for each word is the same with that document. 
 - Generative Process: 
@@ -37,6 +37,10 @@
 
 
 ### [Characterizing Microblogs with Topic Models](twitter-icwsm10.pdf) (ICWSM10)
+| Graphical Model of Labeled Twitter |
+|:---:|
+| <a href="twitter-icwsm10.png"><img width=290 src="twitter-icwsm10.png" alt=""></a> |
+
 <div align="center"><img src="twitter-icwsm10.png"/></div>
 - Authors: Daniel Ramage, Susan Dumais, Dan Liebling.
 - Summary: This paper introduces a way to characterize tweets using topic modeling.
