@@ -1,7 +1,7 @@
 ## Topic Modeling:
 
 ### [Topic Modeling Bibliography](http://mimno.infosci.cornell.edu/topics.html)
-- Dr. Mimno organizes resources on Topic Modeling and lables each paper based on its category. It is awesome! Thanks to him!
+- Dr. Mimno organizes resources on Topic Modeling and labels each paper based on its category. It is awesome! Thanks to him!
 
 ### [Latent Dirichlet Allocation](http://www.cs.princeton.edu/~blei/papers/BleiNgJordan2003.pdf)(JMLR03)
 - Authors: David M. Blei, Andrew Y. Ng, Michael I. Jordan.
