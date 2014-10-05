@@ -12,9 +12,9 @@
 - Summary: Using Gibbs Sampling to discover topics in articles.
 
 ### [Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends](tot-kdd06.pdf) (ACM SIGKDD06) <br/>
-| Graphical Model of TOT |
-|:---:|
-| <a href="totkdd06.jpg"><img width=290 src="totkdd06.jpg" alt=""></a> |
+  | Graphical Model of TOT |
+  |:---:|
+  | <a href="totkdd06.jpg"><img width=290 src="totkdd06.jpg" alt=""></a> |
 
 <!--<div align="center"><img src="totkdd06.jpg" align="middle"/></div>-->
 - Authors: Xuerui Wang, Andrew McCallum.
@@ -37,9 +37,9 @@
 
 
 ### [Characterizing Microblogs with Topic Models](twitter-icwsm10.pdf) (ICWSM10)
-| Graphical Model of Labeled LDA on Twitter |
-|:---:|
-| <a href="twitter-icwsm10.png"><img width=466 src="twitter-icwsm10.png" alt=""></a> |
+  | Graphical Model of Labeled LDA on Twitter |
+  |:---:|
+  | <a href="twitter-icwsm10.png"><img width=466 src="twitter-icwsm10.png" alt=""></a> |
 
 <!--<div align="center"><img src="twitter-icwsm10.png"/></div>-->
 - Authors: Daniel Ramage, Susan Dumais, Dan Liebling.
@@ -56,10 +56,10 @@
 - Summary: This paper surveyes probabilistic topic models to provide a statistical solution to manage large archives of documents. It investigated the Latent Dirichlet Allocation model(LDA), the extended versions and future directions for LDA.
 
 ### [Modeling Flu on Twitter using Temporal Topic Models]()(ICDM14)
-| Graphical Model of HFSTM |
-|:---:|
-| <a href="hfstm.png"><img width=280 src="hfstm.png" alt=""></a> |
+  | Graphical Model of HFSTM |
+  |:---:|
+  | <a href="hfstm.png"><img width=280 src="hfstm.png" alt=""></a> |
   
-  <!--<div align="center"><img src="hfstm.png"/></div>-->
+<!--<div align="center"><img src="hfstm.png"/></div>-->
 - Summary: This paper proposes temporal topic models to capture hidden states of a user from his tweets and aggregate states in a geographical region for better estimation of flu trends. They define states of flue and combines the states as a hidden random variable into the temporal topic graphical models. 
 
