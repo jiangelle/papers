@@ -37,7 +37,7 @@
 
 
 ### [Characterizing Microblogs with Topic Models](twitter-icwsm10.pdf) (ICWSM10)
-| Graphical Model of Labeled Twitter |
+| Graphical Model of Labeled LDA on Twitter |
 |:---:|
 | <a href="twitter-icwsm10.png"><img width=466 src="twitter-icwsm10.png" alt=""></a> |
 
@@ -56,7 +56,7 @@
 - Summary: This paper surveyes probabilistic topic models to provide a statistical solution to manage large archives of documents. It investigated the Latent Dirichlet Allocation model(LDA), the extended versions and future directions for LDA.
 
 ### [Modeling Flu on Twitter using Temporal Topic Models]()(ICDM14)
-| Graphical Model of TTM with Flu States |
+| Graphical Model of HFSTM |
 |:---:|
 | <a href="hfstm.png"><img width=280 src="hfstm.png" alt=""></a> |
 
