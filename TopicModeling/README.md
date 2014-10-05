@@ -59,6 +59,8 @@
 | Graphical Model of HFSTM |
 |:---:|
 | <a href="hfstm.png"><img width=280 src="hfstm.png" alt=""></a> |
+  
   <!--<div align="center"><img src="hfstm.png"/></div>-->
+  
 - Summary: This paper proposes temporal topic models to capture hidden states of a user from his tweets and aggregate states in a geographical region for better estimation of flu trends. They define states of flue and combines the states as a hidden random variable into the temporal topic graphical models. 
 
