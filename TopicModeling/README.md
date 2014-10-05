@@ -14,7 +14,7 @@
 ### [Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends](tot-kdd06.pdf) (ACM SIGKDD06) <br/>
 | Graphical Model of TOT |
 |:---:|
-| <a href="totkdd06.jpg"><img width=280 src="totkdd06.jpg" alt="harvard uni logo"></a> |
+| <a href="totkdd06.jpg"><img width=290 src="totkdd06.jpg" alt="harvard uni logo"></a> |
 
 <div align="center"><img src="totkdd06.jpg" align="middle"/></div>
 - Authors: Xuerui Wang, Andrew McCallum.
