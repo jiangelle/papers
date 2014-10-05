@@ -1,7 +1,7 @@
 ## Topic Modeling:
 
-* First of all, this page is awesome!http://mimno.infosci.cornell.edu/topics.html
-- [Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends](tot-kdd06.pdf) <br/>
+### First of all, this page is awesome!http://mimno.infosci.cornell.edu/topics.html
+### [Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends](tot-kdd06.pdf) <br/>
 <div align="center"><img src="totkdd06.jpg" align="middle"/></div>
   - Summary: A variant of LDA model trying to capture the topical trends. The mixture distribution over topics is influenced by both word co-occurrences and the document’s timestamp. Timestamp for each word is the same with that document. 
   
