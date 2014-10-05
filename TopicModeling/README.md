@@ -3,6 +3,7 @@
 ### [Topic Modeling Bibliography](http://mimno.infosci.cornell.edu/topics.html)
 - Dr. Mimno organizes resources on Topic Modeling and lables each paper based on its category. It is awesome! Thanks to him!
 
+### [Probabilistic Topic Models](http://psiexp.ss.uci.edu/research/papers/SteyversGriffithsLSABookFormatted.pdf)(Handbook of latent semantic analysis2007) 
 
 ### [Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends](tot-kdd06.pdf) (ACM SIGKDD06) <br/>
 <div align="center"><img src="totkdd06.jpg" align="middle"/></div>
