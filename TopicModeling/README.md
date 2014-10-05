@@ -9,7 +9,7 @@
 
 ### [Probabilistic Topic Models](http://psiexp.ss.uci.edu/research/papers/SteyversGriffithsLSABookFormatted.pdf)(Handbook of Latent Semantic Analysis2007) 
 - Authors: Mark Steyvers, Tom Griffiths. 
-- Summary: This paper introduces Gibbs Sampling for inference of LDA model.
+- Summary: This paper introduced Gibbs Sampling for inference of LDA model.
 
 ### [Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends](tot-kdd06.pdf) (ACM SIGKDD06) <br/>
 <div align="center"><img src="totkdd06.jpg" align="middle"/></div>
