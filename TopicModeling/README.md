@@ -7,7 +7,7 @@
 - Authors: David M. Blei, Andrew Y. Ng, Michael I. Jordan.
 - Summary: This paper presents efficient approximate inference techniques based on variational methods and an EM algorithm for empirical Bayes parameter estimation.
 
-### [Finding Scienfic Topics](http://psiexp.ss.uci.edu/research/papers/sciencetopics.pdf)(PNAS04)
+### [Finding Scientific Topics](http://psiexp.ss.uci.edu/research/papers/sciencetopics.pdf)(PNAS04)
 - Authors:Thomas L. Griffiths, Mark Steyvers.
 - Summary: Using Gibbs Sampling to discover topics in articles.
 
