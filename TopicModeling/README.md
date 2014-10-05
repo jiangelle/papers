@@ -3,10 +3,15 @@
 ### [Topic Modeling Bibliography](http://mimno.infosci.cornell.edu/topics.html)
 - Dr. Mimno organizes resources on Topic Modeling and lables each paper based on its category. It is awesome! Thanks to him!
 
+### [Probabilistic Topic Models](http://www.cs.princeton.edu/~blei/papers/Blei2012.pdf)
+- Authors: David M. Blei
+
 ### [Probabilistic Topic Models](http://psiexp.ss.uci.edu/research/papers/SteyversGriffithsLSABookFormatted.pdf)(Handbook of latent semantic analysis2007) 
+- Authors: Mark Steyvers, Tom Griffiths 
 
 ### [Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends](tot-kdd06.pdf) (ACM SIGKDD06) <br/>
 <div align="center"><img src="totkdd06.jpg" align="middle"/></div>
+- Authors: Xuerui Wang, Andrew McCallum
 - Summary: A variant of LDA model trying to capture the topical trends. The mixture distribution over topics is influenced by both word co-occurrences and the document’s timestamp. Timestamp for each word is the same with that document. 
 - Generative Process: 
   - Draw T multinomials &phi;<sub>z</sub> from a Dirichlet prior &beta;, one for each topic z;
