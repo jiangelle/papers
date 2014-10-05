@@ -1,6 +1,7 @@
 ## Topic Modeling:
 
-### First of all, Dr. Mimno provided resources on Topic Modeling on [this page](http://mimno.infosci.cornell.edu/topics.html) which is awesome!
+### [Topic Modeling Bibliography](http://mimno.infosci.cornell.edu/topics.html) is awesome!
+- Dr. Mimno organizes resources on Topic Modeling and lables each paper based on its category. Thanks to him!
 
 
 ### [Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends](tot-kdd06.pdf) <br/>
