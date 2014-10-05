@@ -1,10 +1,10 @@
 ## Topic Modeling:
 
-### [Topic Modeling Bibliography](http://mimno.infosci.cornell.edu/topics.html) is awesome!
-- Dr. Mimno organizes resources on Topic Modeling and lables each paper based on its category. Thanks to him!
+### [Topic Modeling Bibliography](http://mimno.infosci.cornell.edu/topics.html)
+- Dr. Mimno organizes resources on Topic Modeling and lables each paper based on its category. It is awesome! Thanks to him!
 
 
-### [Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends](tot-kdd06.pdf) <br/>
+### [Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends](tot-kdd06.pdf) (ACM SIGKDD06) <br/>
 <div align="center"><img src="totkdd06.jpg" align="middle"/></div>
 - Summary: A variant of LDA model trying to capture the topical trends. The mixture distribution over topics is influenced by both word co-occurrences and the document’s timestamp. Timestamp for each word is the same with that document. 
 - Generative Process: 
@@ -16,11 +16,9 @@
 
 - They use Gibbs Sampling to perform approximate inference and evaluate their model on 3 dataset: NIPS papers(17 years: 1987-2003), A Researcher's Emails(9 months), State-of-the-Union Addresses(21 decades) and compare TOT to LDA. Also, they use topic distributions of documents to predict timestamps. Number of topics T is fixed to be 50. &alpha;=50/T, &beta; = 0.1.
 
-### [Modeling Flu on Twitter using Temporal Topic Models]()
-  <div align="center"><img src="hfstm.png"/></div>
-- Summary: This paper proposes temporal topic models to capture hidden states of a user from his tweets and aggregate states in a geographical region for better estimation of flu trends. They define states of flue and combines the states as a hidden random variable into the temporal topic graphical models. 
+### [Dynamic Topic Models](dtm_icml06.pdf)(ICML06)
 
-### [Characterizing Microblogs with Topic Models](twitter-icwsm10.pdf)
+### [Characterizing Microblogs with Topic Models](twitter-icwsm10.pdf) (ICWSM10)
 - Summary: This paper introduces a way to characterize tweets using topic modeling.
 - Generative Process:
   - For each topic k in 1..K, draw a multinomial distribution &beta;<sub>k</sub> from symmetric Dirichlet prior &eta;.
@@ -29,4 +27,8 @@
     - 2. Select a multinomial distribution &theta;<sub>d</sub> over the labels &Lambda;<sub>d</sub> from symmetric Dirichlet prior &alpha;.
     - 3. For each word position i 1..N in tweet d. First draw a label z<sub>d</sub> from label multinomial &theta;<sub>d</sub>. Then draw a word w<sub>d</sub>from word multinomial &beta;<sub>z</sub>.
 
-### [Dynamic Topic Models](dtm_icml06.pdf)
+
+### [Modeling Flu on Twitter using Temporal Topic Models](ICML14)
+  <div align="center"><img src="hfstm.png"/></div>
+- Summary: This paper proposes temporal topic models to capture hidden states of a user from his tweets and aggregate states in a geographical region for better estimation of flu trends. They define states of flue and combines the states as a hidden random variable into the temporal topic graphical models. 
+
