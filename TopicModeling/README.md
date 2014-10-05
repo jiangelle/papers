@@ -2,13 +2,10 @@
 
 ### [Topic Modeling Bibliography](http://mimno.infosci.cornell.edu/topics.html)
 - Dr. Mimno organizes resources on Topic Modeling and lables each paper based on its category. It is awesome! Thanks to him!
-### [Latent Dirichlet Allocation](http://www.cs.princeton.edu/~blei/papers/BleiNgJordan2003.pdf)
+### [Latent Dirichlet Allocation](http://www.cs.princeton.edu/~blei/papers/BleiNgJordan2003.pdf)(Journal of Machine Learning Research2003)
 - Authors: David M. Blei, Andrew Y. Ng, Michael I. Jordan.
 - Summary: This paper presents efficient approximate inference techniques based on variational methods and an EM algorithm for empirical Bayes parameter estimation.
 
-### [Probabilistic Topic Models](http://www.cs.princeton.edu/~blei/papers/Blei2012.pdf)
-- Authors: David M. Blei.
-- Summary: This paper surveyes probabilistic topic models to provide a statistical solution to manage large archives of documents. It investigated the Latent Dirichlet Allocation model(LDA), the extended versions and future directions for LDA.
 
 ### [Probabilistic Topic Models](http://psiexp.ss.uci.edu/research/papers/SteyversGriffithsLSABookFormatted.pdf)(Handbook of Latent Semantic Analysis2007) 
 - Authors: Mark Steyvers, Tom Griffiths. 
@@ -40,7 +37,10 @@
     - 2. Select a multinomial distribution &theta;<sub>d</sub> over the labels &Lambda;<sub>d</sub> from symmetric Dirichlet prior &alpha;.
     - 3. For each word position i 1..N in tweet d. First draw a label z<sub>d</sub> from label multinomial &theta;<sub>d</sub>. Then draw a word w<sub>d</sub>from word multinomial &beta;<sub>z</sub>.
 
-
+### [Probabilistic Topic Models](http://www.cs.princeton.edu/~blei/papers/Blei2012.pdf)(Communications of the ACM2012)
+- Authors: David M. Blei.
+- Summary: This paper surveyes probabilistic topic models to provide a statistical solution to manage large archives of documents. It investigated the Latent Dirichlet Allocation model(LDA), the extended versions and future directions for LDA.
+- 
 ### [Modeling Flu on Twitter using Temporal Topic Models]()(ICDM14)
   <div align="center"><img src="hfstm.png"/></div>
 - Summary: This paper proposes temporal topic models to capture hidden states of a user from his tweets and aggregate states in a geographical region for better estimation of flu trends. They define states of flue and combines the states as a hidden random variable into the temporal topic graphical models. 
