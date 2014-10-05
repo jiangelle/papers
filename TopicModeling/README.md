@@ -3,14 +3,13 @@
 ### [Topic Modeling Bibliography](http://mimno.infosci.cornell.edu/topics.html)
 - Dr. Mimno organizes resources on Topic Modeling and lables each paper based on its category. It is awesome! Thanks to him!
 
-### [Latent Dirichlet Allocation](http://www.cs.princeton.edu/~blei/papers/BleiNgJordan2003.pdf)(Journal of Machine Learning Research2003)
+### [Latent Dirichlet Allocation](http://www.cs.princeton.edu/~blei/papers/BleiNgJordan2003.pdf)(Journal of Machine Learning Research03)
 - Authors: David M. Blei, Andrew Y. Ng, Michael I. Jordan.
 - Summary: This paper presents efficient approximate inference techniques based on variational methods and an EM algorithm for empirical Bayes parameter estimation.
 
-
-### [Probabilistic Topic Models](http://psiexp.ss.uci.edu/research/papers/SteyversGriffithsLSABookFormatted.pdf)(Handbook of Latent Semantic Analysis2007) 
-- Authors: Mark Steyvers, Tom Griffiths. 
-- Summary: This paper introduces Gibbs Sampling for inference of LDA model.
+## [Finding Scienfic Topics](http://psiexp.ss.uci.edu/research/papers/sciencetopics.pdf)(PNAS04)
+- Authors:Thomas L. Griffiths, Mark Steyvers.
+- Summary: Using Gibbs Sampling to discover topics in articles.
 
 ### [Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends](tot-kdd06.pdf) (ACM SIGKDD06) <br/>
 <div align="center"><img src="totkdd06.jpg" align="middle"/></div>
@@ -27,6 +26,11 @@
 
 ### [Dynamic Topic Models](dtm_icml06.pdf)(ICML06)
 - Authors: David M. Blei, John D. Lafferty.
+
+### [Probabilistic Topic Models](http://psiexp.ss.uci.edu/research/papers/SteyversGriffithsLSABookFormatted.pdf)(Handbook of Latent Semantic Analysis07) 
+- Authors: Mark Steyvers, Tom Griffiths. 
+- Summary: This paper introduces Gibbs Sampling for inference of LDA model.
+
 
 ### [Characterizing Microblogs with Topic Models](twitter-icwsm10.pdf) (ICWSM10)
 - Authors: Daniel Ramage, Susan Dumais, Dan Liebling.
