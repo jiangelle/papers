@@ -35,6 +35,9 @@
 - Authors: Mark Steyvers, Tom Griffiths. 
 - Summary: This paper introduces Gibbs Sampling for inference of LDA model.
 
+### [Labeled LDA: A supervised topic model for credit attribution in multi-labeled corpora](http://www.aclweb.org/anthology/D09-1026)(EMNLP09)
+- Authors: Daniel Ramage, David Hall, Ramesh Nallapati and Christopher D. Manning
+- Summary: A topic model that contrains LDA by defining a one-to-one correspondence between LDA's latent topics and user tags.
 
 ### [Characterizing Microblogs with Topic Models](twitter-icwsm10.pdf) (ICWSM10)
 | Graphical Model of Labeled LDA on Twitter |
