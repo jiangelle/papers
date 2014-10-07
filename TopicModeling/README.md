@@ -62,6 +62,10 @@
 - Authors: David M. Blei.
 - Summary: This paper surveyes probabilistic topic models to provide a statistical solution to manage large archives of documents. It investigated the Latent Dirichlet Allocation model(LDA), the extended versions and future directions for LDA.
 
+### [Dirichlet Process with Mixed Random Measures:A Nonparametric Topic Model for Labeled Data](http://arxiv.org/pdf/1206.4658v1.pdf)(ICML12)
+- Authors: Dongwoo Kim, Suin Kim and Alice Oh
+- Summary: This paper describes a nonparametric topic model for labeled data using a mixture of random measures as a base distribution of the Dirichlet process of the HDP framework.
+
 ### [Modeling Flu on Twitter using Temporal Topic Models]()(ICDM14)
 | Graphical Model of HFSTM |
 |:---:|
