@@ -30,6 +30,7 @@
 
 ### [Dynamic Topic Models](dtm_icml06.pdf)(ICML06)
 - Authors: David M. Blei, John D. Lafferty.
+- Summary: While traditional time series modeling has focused on continuous data, topic models are designed for categorical data. They use state space models on the natural parameter space of the underlying topic multinomials, as well as on the nutural parameters for the logistic normal distributions used for modeling the document-specific topic proportions.
 
 ### [Probabilistic Topic Models](http://psiexp.ss.uci.edu/research/papers/SteyversGriffithsLSABookFormatted.pdf)(Handbook of Latent Semantic Analysis07) 
 - Authors: Mark Steyvers, Tom Griffiths. 
