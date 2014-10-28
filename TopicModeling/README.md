@@ -67,6 +67,9 @@
 ### [Dirichlet Process with Mixed Random Measures:A Nonparametric Topic Model for Labeled Data](http://arxiv.org/pdf/1206.4658v1.pdf)(ICML12)
 - Authors: Dongwoo Kim, Suin Kim and Alice Oh
 - Summary: This paper describes a nonparametric topic model for labeled data using a mixture of random measures as a base distribution of the Dirichlet process of the HDP framework.
+### [The Contextual Focused Topic Model]()(KDD12)
+- Authors: Xu Chen, Mingyuan Zhou and Lawrence Carin
+- Summary: A nonparametric Bayesian contextual focused topic model (cFTM) is proposed. The cFTM infers a sparse (“focused”) set of topics for each document, while also leveraging contex- tual information about the author(s) and document venue.
 
 ### [Modeling Flu on Twitter using Temporal Topic Models]()(ICDM14)
 | Graphical Model of HFSTM |
