@@ -92,8 +92,8 @@
 ### [Reducing the Sampling Complexity of Topic Models](http://www.sravi.org/pubs/fastlda-kdd2014.pdf)
 - Authors: Aaron Q. Li, Amr Ahmed, Sujith Ravi and Alexander J. Smola
 - Summary: 
-- 
+
 ### [The Inverse Regression Topic Model](http://www.cs.columbia.edu/~blei/papers/RabinovichBlei2014.pdf)
 - Authors: Maxim Rabinovich and David Blei
 - Summary:
-- 
+
