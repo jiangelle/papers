@@ -81,19 +81,20 @@
 - Authors: Xu Chen, Mingyuan Zhou and Lawrence Carin
 - Summary: A nonparametric Bayesian contextual focused topic model (cFTM) is proposed. The cFTM infers a sparse (“focused”) set of topics for each document, while also leveraging contex- tual information about the author(s) and document venue.
 
-### [Modeling Flu on Twitter using Temporal Topic Models]()(ICDM14)
+### [Syndromic Surveillance of Flu on Twitter using Temporal Topic Models](http://people.cs.vt.edu/naren/papers/twitter-topic-icdm14.pdf)(ICDM14)
 | Graphical Model of HFSTM |
 |:---:|
 | <a href="hfstm.png"><img width=280 src="hfstm.png" alt=""></a> |
-  
+
 <!--<div align="center"><img src="hfstm.png"/></div>-->
+- Authors: Liangzhe Chen, K. S. M. Tozammel Hossain, Patrick Butler, Naren Ramakrishnan, B. Aditya Prakash
 - Summary: This paper proposes temporal topic models to capture hidden states of a user from his tweets and aggregate states in a geographical region for better estimation of flu trends. They define states of flue and combines the states as a hidden random variable into the temporal topic graphical models. 
 
-### [Reducing the Sampling Complexity of Topic Models](http://www.sravi.org/pubs/fastlda-kdd2014.pdf)
+### [Reducing the Sampling Complexity of Topic Models](http://www.sravi.org/pubs/fastlda-kdd2014.pdf)(KDD14)
 - Authors: Aaron Q. Li, Amr Ahmed, Sujith Ravi and Alexander J. Smola
 - Summary: 
 
-### [The Inverse Regression Topic Model](http://www.cs.columbia.edu/~blei/papers/RabinovichBlei2014.pdf)
+### [The Inverse Regression Topic Model](http://www.cs.columbia.edu/~blei/papers/RabinovichBlei2014.pdf)(ICML14)
 - Authors: Maxim Rabinovich and David Blei
 - Summary:
 
