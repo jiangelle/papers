@@ -60,6 +60,11 @@
     - 3. For each word position i 1..N in tweet d. First draw a label z<sub>d</sub> from label multinomial &theta;<sub>d</sub>. Then draw a word w<sub>d</sub>from word multinomial &beta;<sub>z</sub>.
 - Implementation: Their methods does threading within compute nodes and communicates across nodes with MPI, and can complete training on the OneWeek dataset within about four days on a 24-machine cluster.
 
+### [Geographical Topic Discovery and Comparison]()(WWW11)
+- Authors: Zhijun Yin, Liangliang Cao, Jiawei Han, Chengxiang Zhai, Thomas Huang
+- Summary:
+- 
+
 ### [Probabilistic Topic Models](http://www.cs.princeton.edu/~blei/papers/Blei2012.pdf)(CACM12)
 - Authors: David M. Blei.
 - Summary: This paper surveyes probabilistic topic models to provide a statistical solution to manage large archives of documents. It investigated the Latent Dirichlet Allocation model(LDA), the extended versions and future directions for LDA.
@@ -67,6 +72,11 @@
 ### [Dirichlet Process with Mixed Random Measures:A Nonparametric Topic Model for Labeled Data](http://arxiv.org/pdf/1206.4658v1.pdf)(ICML12)
 - Authors: Dongwoo Kim, Suin Kim and Alice Oh
 - Summary: This paper describes a nonparametric topic model for labeled data using a mixture of random measures as a base distribution of the Dirichlet process of the HDP framework.
+
+### [Sparse Stochastic Inference for Latent Dirichlet Allocation]()(ICML12)
+- Authors: David Mimno, Matthew Hoffman, David Blei.
+- Summary: A hybrid algorithm for Bayesian topic models that combines the efficiency of sparse Gibbs Sampling with the scalability of onilne stochastic inference.
+
 
 ### [The Contextual Focused Topic Model](http://people.ee.duke.edu/~lcarin/Xu_KDD_2012.pdf)(KDD12)
 - Authors: Xu Chen, Mingyuan Zhou and Lawrence Carin
@@ -83,3 +93,8 @@
 ### [Reducing the Sampling Complexity of Topic Models](http://www.sravi.org/pubs/fastlda-kdd2014.pdf)
 - Authors: Aaron Q. Li, Amr Ahmed, Sujith Ravi and Alexander J. Smola
 - Summary: 
+- 
+### [The Inverse Regression Topic Model](http://www.cs.columbia.edu/~blei/papers/RabinovichBlei2014.pdf)
+- Authors: Maxim Rabinovich and David Blei
+- Summary:
+- 
