@@ -60,10 +60,9 @@
     - 3. For each word position i 1..N in tweet d. First draw a label z<sub>d</sub> from label multinomial &theta;<sub>d</sub>. Then draw a word w<sub>d</sub>from word multinomial &beta;<sub>z</sub>.
 - Implementation: Their methods does threading within compute nodes and communicates across nodes with MPI, and can complete training on the OneWeek dataset within about four days on a 24-machine cluster.
 
-### [Geographical Topic Discovery and Comparison]()(WWW11)
+### [Geographical Topic Discovery and Comparison](http://web.engr.illinois.edu/~hanj/pdf/www11_zyin.pdf)(WWW11)
 - Authors: Zhijun Yin, Liangliang Cao, Jiawei Han, Chengxiang Zhai, Thomas Huang
-- Summary:
-- 
+- Summary: Discover and compare the geographical topics from GPS-associate documents.
 
 ### [Probabilistic Topic Models](http://www.cs.princeton.edu/~blei/papers/Blei2012.pdf)(CACM12)
 - Authors: David M. Blei.
@@ -73,7 +72,7 @@
 - Authors: Dongwoo Kim, Suin Kim and Alice Oh
 - Summary: This paper describes a nonparametric topic model for labeled data using a mixture of random measures as a base distribution of the Dirichlet process of the HDP framework.
 
-### [Sparse Stochastic Inference for Latent Dirichlet Allocation]()(ICML12)
+### [Sparse Stochastic Inference for Latent Dirichlet Allocation](http://mimno.infosci.cornell.edu/papers/mimno2012sparse.pdf)(ICML12)
 - Authors: David Mimno, Matthew Hoffman, David Blei.
 - Summary: A hybrid algorithm for Bayesian topic models that combines the efficiency of sparse Gibbs Sampling with the scalability of onilne stochastic inference.
 
