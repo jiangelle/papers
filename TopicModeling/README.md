@@ -30,6 +30,7 @@
 
 ### [Dynamic Topic Models](dtm_icml06.pdf)(ICML06)
 - Authors: David M. Blei, John D. Lafferty.
+- Summary: While traditional time series modeling has focused on continuous data, topic models are designed for categorical data. They use state space models on the natural parameter space of the underlying topic multinomials, as well as on the nutural parameters for the logistic normal distributions used for modeling the document-specific topic proportions.
 
 ### [Probabilistic Topic Models](http://psiexp.ss.uci.edu/research/papers/SteyversGriffithsLSABookFormatted.pdf)(Handbook of Latent Semantic Analysis07) 
 - Authors: Mark Steyvers, Tom Griffiths. 
@@ -57,6 +58,11 @@
     - 1. Build a label set &Lambda; describing the tweet from the deterministic prior &Phi;
     - 2. Select a multinomial distribution &theta;<sub>d</sub> over the labels &Lambda;<sub>d</sub> from symmetric Dirichlet prior &alpha;.
     - 3. For each word position i 1..N in tweet d. First draw a label z<sub>d</sub> from label multinomial &theta;<sub>d</sub>. Then draw a word w<sub>d</sub>from word multinomial &beta;<sub>z</sub>.
+- Implementation: Their methods does threading within compute nodes and communicates across nodes with MPI, and can complete training on the OneWeek dataset within about four days on a 24-machine cluster.
+
+### [Geographical Topic Discovery and Comparison](http://web.engr.illinois.edu/~hanj/pdf/www11_zyin.pdf)(WWW11)
+- Authors: Zhijun Yin, Liangliang Cao, Jiawei Han, Chengxiang Zhai, Thomas Huang
+- Summary: Discover and compare the geographical topics from GPS-associate documents.
 
 ### [Probabilistic Topic Models](http://www.cs.princeton.edu/~blei/papers/Blei2012.pdf)(CACM12)
 - Authors: David M. Blei.
@@ -66,11 +72,29 @@
 - Authors: Dongwoo Kim, Suin Kim and Alice Oh
 - Summary: This paper describes a nonparametric topic model for labeled data using a mixture of random measures as a base distribution of the Dirichlet process of the HDP framework.
 
-### [Modeling Flu on Twitter using Temporal Topic Models]()(ICDM14)
+### [Sparse Stochastic Inference for Latent Dirichlet Allocation](http://mimno.infosci.cornell.edu/papers/mimno2012sparse.pdf)(ICML12)
+- Authors: David Mimno, Matthew Hoffman, David Blei.
+- Summary: A hybrid algorithm for Bayesian topic models that combines the efficiency of sparse Gibbs Sampling with the scalability of onilne stochastic inference.
+
+
+### [The Contextual Focused Topic Model](http://people.ee.duke.edu/~lcarin/Xu_KDD_2012.pdf)(KDD12)
+- Authors: Xu Chen, Mingyuan Zhou and Lawrence Carin
+- Summary: A nonparametric Bayesian contextual focused topic model (cFTM) is proposed. The cFTM infers a sparse (“focused”) set of topics for each document, while also leveraging contex- tual information about the author(s) and document venue.
+
+### [Syndromic Surveillance of Flu on Twitter using Temporal Topic Models](http://people.cs.vt.edu/naren/papers/twitter-topic-icdm14.pdf)(ICDM14)
 | Graphical Model of HFSTM |
 |:---:|
 | <a href="hfstm.png"><img width=280 src="hfstm.png" alt=""></a> |
-  
+
 <!--<div align="center"><img src="hfstm.png"/></div>-->
+- Authors: Liangzhe Chen, K. S. M. Tozammel Hossain, Patrick Butler, Naren Ramakrishnan, B. Aditya Prakash
 - Summary: This paper proposes temporal topic models to capture hidden states of a user from his tweets and aggregate states in a geographical region for better estimation of flu trends. They define states of flue and combines the states as a hidden random variable into the temporal topic graphical models. 
+
+### [Reducing the Sampling Complexity of Topic Models](http://www.sravi.org/pubs/fastlda-kdd2014.pdf)(KDD14)
+- Authors: Aaron Q. Li, Amr Ahmed, Sujith Ravi and Alexander J. Smola
+- Summary: 
+
+### [The Inverse Regression Topic Model](http://www.cs.columbia.edu/~blei/papers/RabinovichBlei2014.pdf)(ICML14)
+- Authors: Maxim Rabinovich and David Blei
+- Summary:
 
